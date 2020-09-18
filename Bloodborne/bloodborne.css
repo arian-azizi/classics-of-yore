@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'Ming';
-    src: url('../Ming.ttf');
+    font-family: 'ming';
+    src: url('../ming.ttf');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -8,8 +8,8 @@
 }
 
 @font-face {
-    font-family: 'Bloodborne';
-    src: url('Bloodborne.ttf');
+    font-family: 'bloodborne';
+    src: url('bloodborne.ttf');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
