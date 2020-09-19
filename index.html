@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 
 <html lang="en" dir="ltr">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
     <style>
+
         @font-face {
             font-family: 'ming';
             src: url('ming.ttf');
@@ -15,7 +19,10 @@
             margin: 0;
             padding: 0;
             overflow: hidden;
-            background-color: black;
+            background-color: #333;
+            position: -webkit-sticky; /* Safari */
+            position: sticky;
+            top: 0;
         }
 
         li {
@@ -31,13 +38,22 @@
         }
 
         li a:hover {
-            background-color: gray;
+            background-color: #111;
+        }
+
+        .centered {
+            position: absolute;
+            top: 42%;
+            left: 50%;
+            transform: translate(-50%, -50%);
         }
 
         body {
             background-color: black;
-            background-image: url('cover.png');
-            background-repeat: no-repeat;
+        }
+
+        p {
+            color: gray;
         }
 
     </style>
@@ -46,25 +62,27 @@
         <title>Classics of Yore</title>
     </head>
 
-    <body style="background-size: cover;">
+    <body>
 
         <header>
+            <div class="container">
+                <img src="cover.png" alt="Classics of Yore" width="100%" style="opacity: .5;">
+                <div class="centered" style="font-family: 'ming'; color: white; font-size: 800%">Classics of Yore</div>
+            </div>
+
             <nav>
-                <ul>
-                    <li>
-                        <a href="Bloodborne/bloodborne-home.html">
-                            <img src="Bloodborne/Images/bloodborne-logo.png" alt="Bloodborne" height="15%" >
-                        </a>
-                    </li>
-                </ul>
+                <li>
+                    <a href="Bloodborne/bloodborne-home.html">
+                        <img src="Bloodborne/images/bloodborne-logo.png" alt="Bloodborne" width="20%" >
+                </li>
+                <li><a href="#news">Coming Soon</a></li>
             </nav>
         </header>
 
-
-        <main>
-            <div style="font-size: 80px; text-align: center; color: antiquewhite;">
-              <h1 style="font-family: 'ming'; padding: 100px;">Classics of Yore</h1>
-            </div>
+        <main style="margin: 5%;">
+            <p style="font-size: 20px;">
+                Hello
+            </p>
         </main>
 
     </body>
