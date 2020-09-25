@@ -1,16 +1,18 @@
 @font-face {
-    font-family: 'ming';
-    src: url('../ming.ttf');
+    font-family: 'Ming';
+    src: url('../Ming.ttf');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 
 }
 
 @font-face {
-    font-family: 'bloodborne';
-    src: url('bloodborne.ttf');
+    font-family: 'Biohazard';
+    src: url('Biohazard.ttf');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 .gamebar {
@@ -29,7 +31,7 @@
 }
 
 body {
-  background: #101011;
+  background: #1f252e;
 }
 
 dl {
@@ -37,7 +39,7 @@ dl {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #101318;
+  background-color: #1f252e;
   position: fixed;
   top: 0;
   width: 100%;
@@ -56,7 +58,7 @@ li a, .dropbtn {
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-  background-color: #1f242c;
+  background-color: #1f252e;
 }
 
 li.dropdown {
