@@ -32,6 +32,10 @@ body {
   background: #101011;
 }
 
+nav {
+  z-index: 10;
+}
+
 dl {
   list-style-type: none;
   margin: 0;
